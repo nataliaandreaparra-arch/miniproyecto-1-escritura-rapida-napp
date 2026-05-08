@@ -40,7 +40,6 @@ Aplicar fundamentos de programación orientada a eventos mediante el desarrollo 
 
 ## Estructura del proyecto:
 
-```mermaid
 src/
 └── main/
     ├── java/
@@ -74,7 +73,7 @@ src/
                 ├── gameOverIcon.png
                 ├── tryicon.png
                 └── winicon.pnga 
-```
+
 
 ## Ejecución:
 1. Clonar el repositorio.
