@@ -21,14 +21,14 @@ public class GameStage extends Stage implements ICreateStage {
      * @throws IOException if the FXML resource cannot be loaded
      */
     public GameStage() throws IOException {
-        FXMLLoader loader = loadFXMLLoader("/np/escrituraRapida/fxml/escrituraRapida-view.fxml");
+        FXMLLoader loader = loadFXMLLoader("/np/escriturarapida/fxml/escrituraRapida-view.fxml");
         Parent root= loader.getRoot();
         Scene scene = new Scene(root);
         setScene(scene);
         setResizable(false);
         setTitle("ESCRITURA RÁPIDA");
         getIcons().add(new Image(
-                String.valueOf(getClass().getResource("/np/escrituraRapida/icons/favicon.png"))
+                String.valueOf(getClass().getResource("/np/escriturarapida/icons/favicon.png"))
         ));
         show();
     }

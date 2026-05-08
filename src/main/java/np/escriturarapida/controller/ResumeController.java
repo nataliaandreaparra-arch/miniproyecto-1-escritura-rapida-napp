@@ -63,8 +63,8 @@ public class ResumeController {
             anchorPane.setStyle("-fx-background-color: #003300; ");
             playAgainLbl.setText("REINTENTAR");
 
-            iconImage.setImage(new Image("/np/escrituraRapida/icons/winicon.png"));
-            exitIconImg.setImage(new Image("/np/escrituraRapida/icons/exiticon.png"));
+            iconImage.setImage(new Image("/np/escriturarapida/icons/winicon.png"));
+            exitIconImg.setImage(new Image("/np/escriturarapida/icons/exiticon.png"));
         }
         else{
             tittleLbl.setText("¡PERDISTE!");
@@ -75,8 +75,8 @@ public class ResumeController {
             anchorPane.setStyle("-fx-background-color: #550000;");
             playAgainLbl.setText("REINTENTAR");
 
-            iconImage.setImage(new Image("/np/escrituraRapida/icons/gameOverIcon.png"));
-            exitIconImg.setImage(new Image("/np/escrituraRapida/icons/exiticon.png"));
+            iconImage.setImage(new Image("/np/escriturarapida/icons/gameOverIcon.png"));
+            exitIconImg.setImage(new Image("/np/escriturarapida/icons/exiticon.png"));
 
         }
 

@@ -27,7 +27,7 @@ public class ResumeStage extends Stage implements ICreateStage {
      * @throws IOException if the FXML resource cannot be loaded
      */
     public ResumeStage(boolean win, int currentLevel, int currentScore) throws IOException {
-        FXMLLoader loader = loadFXMLLoader("/np/escrituraRapida/fxml/resumenEscrituraRapida-view.fxml");
+        FXMLLoader loader = loadFXMLLoader("/np/escriturarapida/fxml/resumenEscrituraRapida-view.fxml");
         Parent root = loader.getRoot();
         controller= loader.getController();
         controller.configureResume(win,currentLevel,currentScore);
@@ -36,7 +36,7 @@ public class ResumeStage extends Stage implements ICreateStage {
         setResizable(false);
         setTitle("RESUMEN FINAL ESCRITURA RÁPIDA");
         getIcons().add(new Image(
-                String.valueOf(getClass().getResource("/np/escrituraRapida/icons/favicon.png"))
+                String.valueOf(getClass().getResource("/np/escriturarapida/icons/favicon.png"))
         ));
         show();
     }
