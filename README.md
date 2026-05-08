@@ -39,7 +39,7 @@ Aplicar fundamentos de programación orientada a eventos mediante el desarrollo 
 - Cada 5 niveles el tiempo disminuye para aumentar la dificultad.
 
 ## Estructura del proyecto:
-
+```text
 src/
 └── main/
     ├── java/
@@ -74,6 +74,7 @@ src/
                 ├── tryicon.png
                 └── winicon.pnga 
 
+```
 
 ## Ejecución:
 1. Clonar el repositorio.
